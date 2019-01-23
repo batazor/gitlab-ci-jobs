@@ -2,6 +2,8 @@
 
 jobs for gitlab-ci
 
+> *Docs:* [include:file](https://docs.gitlab.com/ee/ci/yaml/#includefile)
+
 ### Stages
 
 ```
