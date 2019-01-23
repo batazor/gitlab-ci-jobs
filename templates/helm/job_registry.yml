@@ -1,0 +1,5 @@
+.job_template_registry: &job_registry
+  type: registry
+  except:
+  - branches
+  when: on_success
