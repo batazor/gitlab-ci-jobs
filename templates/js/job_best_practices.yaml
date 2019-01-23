@@ -1,0 +1,8 @@
+.job_template_best_practices: &job_best_practices
+  type: best_practices
+  before_script:
+  - npm i --ignore-scripts
+  retry: 1
+  only:
+  - tags
+  allow_failure: true
